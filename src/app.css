@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Overpass';
+    src: url('/fonts/Overpass/static/Overpass-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Overpass';
+    src: url('/fonts/Overpass/static/Overpass-Bold.ttf');
+    font-weight: 700;
+  }
+
+  :root {
+    @apply bg-very-dark-blue font-overpass text-white;
+  }
+}
