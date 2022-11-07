@@ -16,7 +16,7 @@
 
 <main class="flex justify-center items-center min-h-screen p-6">
   <h1 class="sr-only">Your rating / Rate us!</h1>
-  <article class="md:max-w-xs p-6 rounded-2xl bg-darker-blue">
+  <article class="md:max-w-sm p-6 md:p-7 rounded-2xl bg-darker-blue">
     {#if rating <= 0}
       <div class="space-y-4">
         <div
@@ -37,7 +37,7 @@
                 <span class="sr-only">Rate 1</span>
                 <input
                   required
-                  class="flex justify-center items-center w-10 h-10 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['1'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
+                  class="flex justify-center items-center w-10 h-10 md:w-12 md:h-12 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['1'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
                   id="rate-1"
                   name="rating"
                   type="radio"
@@ -47,7 +47,7 @@
               <label for="rate-2">
                 <span class="sr-only">Rate 2</span>
                 <input
-                  class="flex justify-center items-center w-10 h-10 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['2'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
+                  class="flex justify-center items-center w-10 h-10 md:w-12 md:h-12 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['2'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
                   id="rate-2"
                   name="rating"
                   type="radio"
@@ -57,7 +57,7 @@
               <label for="rate-3">
                 <span class="sr-only">Rate 3</span>
                 <input
-                  class="flex justify-center items-center w-10 h-10 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['3'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
+                  class="flex justify-center items-center w-10 h-10 md:w-12 md:h-12 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['3'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
                   id="rate-3"
                   name="rating"
                   type="radio"
@@ -67,7 +67,7 @@
               <label for="rate-4">
                 <span class="sr-only">Rate 4</span>
                 <input
-                  class="flex justify-center items-center w-10 h-10 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['4'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
+                  class="flex justify-center items-center w-10 h-10 md:w-12 md:h-12 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['4'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
                   id="rate-4"
                   name="rating"
                   type="radio"
@@ -77,7 +77,7 @@
               <label for="rate-5">
                 <span class="sr-only">Rate 5</span>
                 <input
-                  class="flex justify-center items-center w-10 h-10 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['5'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
+                  class="flex justify-center items-center w-10 h-10 md:w-12 md:h-12 pt-[0.3em] rounded-full bg-dark-blue checked:bg-light-gray text-medium-gray checked:text-white transition-colors appearance-none cursor-pointer after:content-['5'] active:bg-orange active:text-white md:hover:bg-orange md:hover:text-white"
                   id="rate-5"
                   name="rating"
                   type="radio"
